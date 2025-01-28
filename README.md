@@ -4,7 +4,7 @@ A theory project extending off a [two-sided type system](https://arxiv.org/abs/2
 
 ## Abstract excerpt
 
-Traditional type systems provide the guarentee that a well-typed program does not go wrong (crash) but has none for untypable programs.
+Traditional type systems ensure that well-typed programs do not crash but offer no guarantees for programs that cannot be typed.
 
 Two-sided systems provide two guarantees: well-typed programs do not go wrong, and ill-typed programs do not evaluate. The paper extends the two-sided system to track the effects and provide a more fine-grained expression of termination or evaluation.
 
